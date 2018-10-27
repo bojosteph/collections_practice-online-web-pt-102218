@@ -11,12 +11,9 @@ def sort_array_char_count(array)
 end
 
 def swap_elements_from_to(array, index, destination_index)
-     new_array = []
-     array.each do |a, b| 
-     new_array << array[a,b] = array[b,a]
+     array.sort{ |index, destination_index| index <=> destination_index}
   end
-  new_array
- end
+  
 
 def reverse_array(array)
    array.reverse
