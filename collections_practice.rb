@@ -11,11 +11,13 @@ def sort_array_char_count(array)
 end
 
 def swap_elements_from_to(array, index, destination_index)
-     array.sort{ |index, destination_index| index.index <=> destination_index.index}
+     
   end
   
 
 def reverse_array(array)
    array.reverse
 end 
+
+def
 
