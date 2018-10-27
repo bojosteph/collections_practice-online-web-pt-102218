@@ -13,7 +13,7 @@ end
 def swap_elements_from_to(array, index, destination_index)
      new_array = []
      array.each do |a, b| 
-     new_array << array[a], array[b] = array[b], array[a]
+     new_array << array[a,b] = array[b,a]
   end
   new_array
  end
