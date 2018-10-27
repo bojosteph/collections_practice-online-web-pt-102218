@@ -20,7 +20,6 @@ def swap_elements_from_to(array, index, destination_index)
 
 def reverse_array(array)
    
- reverse = array.reverse
- reverse
- end
+ array.reverse
+ 
  end
