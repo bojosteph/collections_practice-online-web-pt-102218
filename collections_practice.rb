@@ -31,7 +31,8 @@ def find_a(array)
   array.select{ |word| word[0].include? "a"}
  end
 
- def sum_array(array)   
+ def sum_array(array)
+   array.inject 
     
    
    
