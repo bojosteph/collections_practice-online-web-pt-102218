@@ -43,7 +43,7 @@ def find_a(array)
         element + "s"
      end
    end
- end
+ 
      
      
    
