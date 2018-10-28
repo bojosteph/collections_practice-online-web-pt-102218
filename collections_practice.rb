@@ -36,9 +36,10 @@ def find_a(array)
  end
  
  def add_s(array)
+   
    array.each_with_index.collect{|element, index|}
-   if index != array[1]
-     element << "s"
+   if element != array[1]
+      element << "s"
     end
   end
     
