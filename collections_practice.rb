@@ -28,7 +28,9 @@ def kesha_maker(array)
  end
    
 def find_a(array)
-   
+  array.select{ |word| word[0].include?.downcase "a"
+end
+    
     
    
    
