@@ -37,13 +37,7 @@ def find_a(array)
  
  def add_s(array)
    
-   array.each_with_index.collect{|element, index|}
-   if element != array[1]
-     element.each{ |x| x << "s"}
-      
-    end
-  end
-    
+   
    
    
  
