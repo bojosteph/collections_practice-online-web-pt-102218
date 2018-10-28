@@ -39,7 +39,8 @@ def find_a(array)
    
    array.each_with_index.collect{|element, index|}
    if element != array[1]
-      element << "s"
+     element.each{ |x| x << "s"}
+      
     end
   end
     
