@@ -24,7 +24,8 @@ end
 def kesha_maker(array)
    new_array = []
    
-  array.each do |element|
+  array.each_with_index do  |a, b|
+    
    
    
  end
