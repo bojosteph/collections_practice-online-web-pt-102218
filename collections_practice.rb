@@ -36,11 +36,11 @@ def find_a(array)
  end
  
  def add_s (array)
-  array.collect.with_index do |word, index|
+  array.collect.with_index do |element, index|
     if index == 1 
-      word 
+      element 
     else 
-      word + "s"
+      element + "s"
     end
   end
 end
